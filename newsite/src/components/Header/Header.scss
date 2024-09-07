@@ -1,0 +1,37 @@
+@import "../../styles/index.scss";
+.header {
+  display: flex;
+  max-width: 1440px;
+  margin: auto;
+  padding: 20px;
+  justify-content: space-between;
+  background-color: $color-white;
+  border-bottom: transparent;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.2);
+  position: sticky;
+  top: 0;
+  &-navbar {
+    @media(width<=1200px) {
+        display: none;
+    }
+  }
+  &-navbar-links {
+    display: flex;
+    gap: 5px;
+  }
+  &-navbar-link {
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    color: $font-color;
+    &:hover {
+      color: $color-purple;
+    }
+  }
+}
+.header-title a {
+  color: $color-purple;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+}

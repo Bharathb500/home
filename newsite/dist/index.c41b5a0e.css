@@ -1,0 +1,109 @@
+.header {
+  background-color: #fff;
+  border-bottom: #0000;
+  justify-content: space-between;
+  max-width: 1440px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 3px 15px #0003;
+}
+
+@media (width <= 1200px) {
+  .header-navbar {
+    display: none;
+  }
+}
+
+.header-navbar-links {
+  gap: 5px;
+  display: flex;
+}
+
+.header-navbar-link {
+  color: #6a708e;
+  padding: 10px;
+  text-decoration: none;
+  display: block;
+}
+
+.header-navbar-link:hover {
+  color: #d92cf9;
+}
+
+.header-title a {
+  color: #d92cf9;
+  text-align: center;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.banner {
+  aspect-ratio: 16 / 9;
+  background-image: url("banner-portfolio-design-agency-leicester-1024x475.8add2431.jpg");
+  justify-content: center;
+  align-items: center;
+  max-width: 1440px;
+  margin: auto;
+  display: flex;
+}
+
+.banner .banner-content {
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  display: flex;
+}
+
+.banner .banner-content .banner-title {
+  color: #fff;
+  text-align: center;
+  font-size: clamp(1rem, 2vw + 1rem, 3.375rem);
+}
+
+.banner .banner-content .banner-designation {
+  color: #fff;
+  font-size: 20px;
+}
+
+.banner .banner-content .resume-button {
+  color: #fff;
+  background: #b636ff;
+  border: 1px solid #b636ff;
+  padding: 20px;
+  font-size: 16px;
+  text-decoration: none;
+  transition: all .3s linear;
+  box-shadow: 0 5px 20px #0003;
+}
+
+.banner .banner-content .resume-button:hover {
+  background: #d92cf9;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Open Sans;
+  list-style: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  padding-top: 50px;
+}
+
+.title {
+  text-align: center;
+  border-bottom: 1px solid #e5ebf2;
+  padding-bottom: 30px;
+  font-size: 24px;
+  font-weight: 600;
+}
+/*# sourceMappingURL=index.c41b5a0e.css.map */
